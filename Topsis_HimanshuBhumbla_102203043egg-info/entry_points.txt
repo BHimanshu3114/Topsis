@@ -1,2 +1,0 @@
-[console_scripts]
-topsis-calc = topsis_PranavDevKhindria_102203279.main:main

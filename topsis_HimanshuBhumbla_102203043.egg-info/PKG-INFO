@@ -1,15 +1,13 @@
 Metadata-Version: 2.2
-Name: topsis-PranavDevKhindria-102203279
+Name: topsis-HimanshuBhumbla-102203043
 Version: 0.2.0
 Summary: A Python package to perform Topsis analysis.
-Home-page: https://github.com/oxzoid/Topsis-package
-Author: Pranav
+Home-page: https://github.com/BHimanshu3114/Topsis
+Author: Himanshu Bhumbla
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-License-File: LICENSE.md
 Requires-Dist: pandas
 Requires-Dist: numpy
 Dynamic: author
@@ -44,15 +42,15 @@ TOPSIS is a multi-criteria decision-making approach that ranks a set of alternat
 
 ## File Structure
 
-- **Script Name**: `YourRollNumber.py`  
-  Replace `YourRollNumber` with your actual roll number (e.g., `101556.py`).
+- **Script Name**: `setup.py`  
+  
 
-- **Input CSV File**: `<RollNumber>-data.csv`  
+- **Input CSV File**: `102203043-data.csv`  
   - Must contain at least 3 columns.
   - The **first column** is the identifier (e.g., M1, M2, ...).
   - The **remaining columns** are numeric (no missing or non-numeric values).
 
-- **Output CSV File**: `<RollNumber>-result.csv`  
+- **Output CSV File**: `102203043-result.csv`  
   - Will contain the original columns plus two additional columns:  
     - **Topsis Score**  
     - **Rank**
@@ -62,6 +60,6 @@ TOPSIS is a multi-criteria decision-making approach that ranks a set of alternat
 Open a terminal/command prompt in the directory containing your Python script and run:
 
 ```bash
-python YourRollNumber.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
+python setup.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
 ```
 
