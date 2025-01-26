@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="topsis-PranavDevKhindria-102203279",            # Package name on PyPI
+    name="topsis-HimanshuBhumbla-102203043",            # Package name on PyPI
     version="0.2.0",                             # Package version
-    author="Pranav",
+    author="Himanshu Bhumbla",
     description="A Python package to perform Topsis analysis.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/oxzoid/Topsis-package",
+    url="https://github.com/BHimanshu3114/Topsis",
     packages=find_packages(),                    # Automatically find subpackages
     include_package_data=True,                   # If you have data files, etc.
     install_requires=[
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "topsis-calc=topsis_PranavDevKhindria_102203279.main:main"
+            "topsis-calc=topsis_HimanshuBhumbla_102203043.main:main"
         ]
     },
     classifiers=[
